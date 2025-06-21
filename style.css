@@ -1,0 +1,39 @@
+body {
+    font-family: 'Bodoni Moda', serif;
+}
+
+div{
+    font-family: 'Bodoni Moda', serif;
+}
+
+header {
+    display: flex; 
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: flex-start; /* Căn chỉnh nội dung */
+    padding: 10px 40px;
+    
+}
+nav {
+    display: flex;
+    gap: 25px; /* Khoảng cách giữa các span */
+    margin: center;
+    
+}
+
+
+.header_nav
+{
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    font-weight: 500;
+   
+}
+
+#header_logo
+{   
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    width: 35%  ;
+}
